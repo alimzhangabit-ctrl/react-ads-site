@@ -3,7 +3,6 @@ import './App.css';
 import './Rest.css';
 import './Updates.css';
 import './ImagePreview.css';
-import GoogleMap from './Components/GoogleMap';
 import { contacts, portfolioLinks } from './config/siteConfig';
 
 const Arrow = () => <span className="icon">↗</span>;
