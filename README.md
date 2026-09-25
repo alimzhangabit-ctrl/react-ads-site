@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# CodeMatrix — Digital Product Studio
+
+## Настройка карты, контактов и заявок
+
+1. Скопируйте `.env.example` в `.env` и заполните значения. Файл `.env` содержит секреты и не должен попадать в git.
+2. Для Google Maps создайте браузерный ключ в Google Cloud, включите **Maps JavaScript API**, ограничьте ключ доменами сайта и укажите его в `REACT_APP_GOOGLE_MAPS_API_KEY`.
+3. Для писем заполните `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` и особенно `SMTP_TO` - на этот адрес придут заявки. Для Gmail используйте пароль приложения, а не обычный пароль аккаунта.
+4. Запустите фронтенд и обработчик заявок в разных терминалах:
+
+```bash
+npm start
+npm run server
+```
+
+Публичные контакты и ссылки на портфолио находятся в `src/config/siteConfig.js`.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
